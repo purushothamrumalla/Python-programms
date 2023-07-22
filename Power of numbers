@@ -1,0 +1,13 @@
+def pow(n,x):
+    if(x==0):
+        return 1
+    else:
+        return (n*pow(n,x-1))
+n=int(input())
+x=int(input())
+print(pow(n,x))
+
+output
+5
+2
+25
