@@ -1,0 +1,17 @@
+i=chr
+for i in range(97,123):
+    if(i%2!=0):
+        d=chr(i)
+        print(d.upper(),end='')
+    else:
+        print(chr(i),end="")
+print()
+for i in range(65,90):
+    if(i%2!=0):
+        d=chr(i)
+        print(d.lower(),end='')
+    else:
+        print(chr(i),end="")
+out put:
+AbCdEfGhIjKlMnOpQrStUvWxYz
+aBcDeFgHiJkLmNoPqRsTuVwXy
